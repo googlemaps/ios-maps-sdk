@@ -28,7 +28,7 @@ let package = Package(
   ], dependencies: [],
   targets: [
     .binaryTarget(
-      name: "GoogleMaps", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMaps.zip",
+      name: "GoogleMaps", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMaps_3p.xcframework.zip",
       checksum: "4d9b8a4836d52eb7ef6257968853a9949b02cde299a05fe7389efab54c59128c"
     ),
     .target(
@@ -58,7 +58,7 @@ let package = Package(
       ]
     ),
     .binaryTarget(
-      name: "GoogleMapsCore", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMapsCore.zip",
+      name: "GoogleMapsCore", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMapsCore_3p.xcframework.zip",
       checksum: "31d11bdb0b12bac2bf33e3416c15bd09258a4e193fd8a5ceb452bad281c66626"
     ),
     .target(
@@ -69,7 +69,7 @@ let package = Package(
       publicHeadersPath: "Sources"
     ),
     .binaryTarget(
-      name: "GoogleMapsBase", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMapsBase.zip",
+      name: "GoogleMapsBase", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMapsBase_3p.xcframework.zip",
       checksum: "4e865a2f22e393f51546d4095452f4a93e067539a0c48339bb0f579fb5eb163a"
     ),
     .target(
@@ -80,7 +80,7 @@ let package = Package(
       publicHeadersPath: "Sources"
     ),
     .binaryTarget(
-      name: "GoogleMapsM4B", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMapsM4B.zip",
+      name: "GoogleMapsM4B", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMapsM4B_3p.xcframework.zip",
       checksum: "26b92a9e5872f4e6375528fd4b7aa7a8c164a94a31e86e3eca51932cd52be790"
     ),
     .target(
