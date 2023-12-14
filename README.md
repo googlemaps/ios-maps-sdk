@@ -33,8 +33,7 @@ see the Maps SDK for iOS
 3. Select the
     [version](https://developers.google.com/maps/documentation/ios-sdk/versions)
     of the Maps SDK for iOS that you want to use. For new projects, we recommend
-    specifying the latest version and using the "Up to Next Major Version"
-    option.
+    specifying the latest version and using the "Exact Version" option.
 
 4. Follow the
     [instructions](https://developers.google.com/maps/documentation/ios-sdk/config#get-key)
