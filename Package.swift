@@ -28,8 +28,8 @@ let package = Package(
   ], dependencies: [],
   targets: [
     .binaryTarget(
-      name: "GoogleMaps", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMaps_3p.xcframework.zip",
-      checksum: "4d9b8a4836d52eb7ef6257968853a9949b02cde299a05fe7389efab54c59128c"
+      name: "GoogleMaps", url: "https://dl.google.com/geosdk/swiftpm/8.4.0/GoogleMaps_3p.xcframework.zip",
+      checksum: "65f78e9e4e75be666f26584836791fe5685a43b19d847fe5246d4aeb7146d113"
     ),
     .target(
       name: "GoogleMapsTarget",
@@ -58,8 +58,8 @@ let package = Package(
       ]
     ),
     .binaryTarget(
-      name: "GoogleMapsCore", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMapsCore_3p.xcframework.zip",
-      checksum: "31d11bdb0b12bac2bf33e3416c15bd09258a4e193fd8a5ceb452bad281c66626"
+      name: "GoogleMapsCore", url: "https://dl.google.com/geosdk/swiftpm/8.4.0/GoogleMapsCore_3p.xcframework.zip",
+      checksum: "c7879ccd3cb20d37816cfbb833adb4965d3fd32253f57b1cf2edc0542611ce70"
     ),
     .target(
       name: "GoogleMapsCoreTarget",
@@ -69,8 +69,8 @@ let package = Package(
       publicHeadersPath: "Sources"
     ),
     .binaryTarget(
-      name: "GoogleMapsBase", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMapsBase_3p.xcframework.zip",
-      checksum: "4e865a2f22e393f51546d4095452f4a93e067539a0c48339bb0f579fb5eb163a"
+      name: "GoogleMapsBase", url: "https://dl.google.com/geosdk/swiftpm/8.4.0/GoogleMapsBase_3p.xcframework.zip",
+      checksum: "d308fb16e60c6d25b221d485fc1695badceaf8c75069179c75c05614a47cc052"
     ),
     .target(
       name: "GoogleMapsBaseTarget",
@@ -80,8 +80,8 @@ let package = Package(
       publicHeadersPath: "Sources"
     ),
     .binaryTarget(
-      name: "GoogleMapsM4B", url: "https://dl.google.com/geosdk/swiftpm/8.3.1/GoogleMapsM4B_3p.xcframework.zip",
-      checksum: "26b92a9e5872f4e6375528fd4b7aa7a8c164a94a31e86e3eca51932cd52be790"
+      name: "GoogleMapsM4B", url: "https://dl.google.com/geosdk/swiftpm/8.4.0/GoogleMapsM4B_3p.xcframework.zip",
+      checksum: "23665f11fdd498a31fb081d914179e19f2eebdd0366e492f077381748cac21be"
     ),
     .target(
       name: "GoogleMapsM4BTarget",
