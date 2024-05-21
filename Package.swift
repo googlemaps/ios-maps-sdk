@@ -31,8 +31,8 @@ let package = Package(
       name: "Maps",
       dependencies: [
         "GoogleMaps",
-        "Base",
-        "Core",
+        "GoogleMapsBaseTarget",
+        "GoogleMapsCoreTarget",
       ],
       path: "Maps",
       sources: ["GMSEmpty.m"],
@@ -55,7 +55,7 @@ let package = Package(
       checksum: "290f4002db479331d18fb9233e3015a1eb0d9abc16a765648e60590f34b0d691"
     ),
     .target(
-      name: "Core",
+      name: "GoogleMapsCoreTarget",
       dependencies: ["GoogleMapsCore"],
       path: "Core",
       sources: ["GMSEmpty.m"],
@@ -67,7 +67,7 @@ let package = Package(
       checksum: "de00cb1d8557ee90a2fa7dd73060d74ddaf28d6d137082d6df147535b5eb4a01"
     ),
     .target(
-      name: "Base",
+      name: "GoogleMapsBaseTarget",
       dependencies: ["GoogleMapsBase"],
       path: "Base",
       sources: ["GMSEmpty.m"],
