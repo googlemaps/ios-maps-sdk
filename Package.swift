@@ -1,7 +1,7 @@
 // swift-tools-version: 5.5
 
 //
-// Copyright 2023 Google LLC
+// Copyright 2024 Google LLC
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import PackageDescription
 
 let package = Package(
   name: "GoogleMaps", platforms: [.iOS(.v15)],
-  products: [.library(name: "GoogleMaps", targets: ["Maps"])], dependencies: [],
+  products: [.library(name: "GoogleMaps", targets: ["GoogleMapsTarget"])], dependencies: [],
   targets: [
     .binaryTarget(
       name: "GoogleMaps",
@@ -28,7 +28,7 @@ let package = Package(
       checksum: "997a67052607339e379a46d281ee4d198c6448f59176ff03e0a5da5bb315cd14"
     ),
     .target(
-      name: "Maps",
+      name: "GoogleMapsTarget",
       dependencies: [
         "GoogleMaps",
         "GoogleMapsBaseTarget",
