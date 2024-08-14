@@ -6,7 +6,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//     https://www.apache.org/licenses/LICENSE-2.0
+//      http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -22,8 +22,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "GoogleMaps",
-      url: "https://dl.google.com/geosdk/swiftpm/9.0.0/GoogleMaps_3p.xcframework.zip",
-      checksum: "997a67052607339e379a46d281ee4d198c6448f59176ff03e0a5da5bb315cd14"
+      url: "https://dl.google.com/geosdk/swiftpm/9.1.0/GoogleMaps_3p.xcframework.zip",
+      checksum: "8c2ba4de22dc9739bcf3904df1b544733ed9a128855901d3e8cdeb34154c0955"
     ),
     .target(
       name: "GoogleMapsTarget",
@@ -49,8 +49,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "GoogleMapsCore",
-      url: "https://dl.google.com/geosdk/swiftpm/9.0.0/GoogleMapsCore_3p.xcframework.zip",
-      checksum: "290f4002db479331d18fb9233e3015a1eb0d9abc16a765648e60590f34b0d691"
+      url: "https://dl.google.com/geosdk/swiftpm/9.1.0/GoogleMapsCore_3p.xcframework.zip",
+      checksum: "ea6482feb32b2bd493457a0de5ab6d088308b597bc54cf4cd31ee5c24f67351a"
     ),
     .target(
       name: "GoogleMapsCoreTarget",
@@ -61,8 +61,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "GoogleMapsBase",
-      url: "https://dl.google.com/geosdk/swiftpm/9.0.0/GoogleMapsBase_3p.xcframework.zip",
-      checksum: "de00cb1d8557ee90a2fa7dd73060d74ddaf28d6d137082d6df147535b5eb4a01"
+      url: "https://dl.google.com/geosdk/swiftpm/9.1.0/GoogleMapsBase_3p.xcframework.zip",
+      checksum: "5de5356484e30fbb7c7dd1a79286749309cc527c62c10cc3736345f05ccffda2"
     ),
     .target(
       name: "GoogleMapsBaseTarget",

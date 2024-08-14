@@ -1,3 +1,4 @@
+<!--* freshness: { exempt: true } *-->
 
 # How to Contribute
 
