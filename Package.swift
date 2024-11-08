@@ -22,63 +22,33 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "GoogleMaps",
-      url: "https://dl.google.com/geosdk/swiftpm/9.1.1/GoogleMaps_3p.xcframework.zip",
-      checksum: "0b8235f8fbd7642c3fc597ae56610ce7d62b3ec8558bb3d8e04ac736147e0b8d"
+      url: "https://dl.google.com/geosdk/swiftpm/9.2.0/GoogleMaps_3p.xcframework.zip",
+      checksum: "5632e9be780ef979611e3256c13c5fd4bfc594b4b949cb34c7a48a8192bc3225"
     ),
     .target(
       name: "GoogleMapsTarget",
-      dependencies: [
-        "GoogleMaps",
-        "GoogleMapsBaseTarget",
-        "GoogleMapsCoreTarget",
-      ],
+      dependencies: ["GoogleMaps"],
       path: "Maps",
       sources: ["GMSEmpty.m"],
       resources: [.copy("Resources/GoogleMapsResources/GoogleMaps.bundle")],
       publicHeadersPath: "Sources",
       linkerSettings: [
+        .linkedLibrary("c++"),
+        .linkedLibrary("z"),
         .linkedFramework("Accelerate"),
+        .linkedFramework("Contacts"),
+        .linkedFramework("CoreData"),
+        .linkedFramework("CoreGraphics"),
         .linkedFramework("CoreImage"),
+        .linkedFramework("CoreLocation"),
+        .linkedFramework("CoreTelephony"),
         .linkedFramework("CoreText"),
         .linkedFramework("GLKit"),
         .linkedFramework("ImageIO"),
         .linkedFramework("Metal"),
         .linkedFramework("OpenGLES"),
         .linkedFramework("QuartzCore"),
-      ]
-    ),
-    .binaryTarget(
-      name: "GoogleMapsCore",
-      url: "https://dl.google.com/geosdk/swiftpm/9.1.1/GoogleMapsCore_3p.xcframework.zip",
-      checksum: "17edee7a31ad5deee06bf09eda7a4105528a26e19e61027be8300922031ce359"
-    ),
-    .target(
-      name: "GoogleMapsCoreTarget",
-      dependencies: ["GoogleMapsCore"],
-      path: "Core",
-      sources: ["GMSEmpty.m"],
-      publicHeadersPath: "Sources"
-    ),
-    .binaryTarget(
-      name: "GoogleMapsBase",
-      url: "https://dl.google.com/geosdk/swiftpm/9.1.1/GoogleMapsBase_3p.xcframework.zip",
-      checksum: "3234fe695929fe6716ffd8c825f804453ef0883b277fe6a5cecd38cf86ac662a"
-    ),
-    .target(
-      name: "GoogleMapsBaseTarget",
-      dependencies: ["GoogleMapsBase"],
-      path: "Base",
-      sources: ["GMSEmpty.m"],
-      publicHeadersPath: "Sources",
-      linkerSettings: [
-        .linkedLibrary("c++"),
-        .linkedLibrary("z"),
-        .linkedFramework("Contacts"),
-        .linkedFramework("CoreData"),
-        .linkedFramework("CoreGraphics"),
-        .linkedFramework("CoreLocation"),
-        .linkedFramework("CoreTelephony"),
-        .linkedFramework("QuartzCore"),
+        .linkedFramework("Security"),
         .linkedFramework("SystemConfiguration"),
         .linkedFramework("UIKit"),
       ]
