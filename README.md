@@ -1,5 +1,3 @@
-<!--* freshness: { exempt: true } *-->
-
 # Google Maps SDK For iOS Swift package
 
 ## Description
