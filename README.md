@@ -64,29 +64,29 @@ Platform is subject to the
 
 ## Support
 
-This repository is offered via an open source license. It is not governed by the
-Google Maps Platform Support
-[Technical Support Services Guidelines](https://cloud.google.com/maps-platform/terms/tssg),
-the [SLA](https://cloud.google.com/maps-platform/terms/sla), or the
-[Deprecation Policy](https://cloud.google.com/maps-platform/terms) (however, any
-Google Maps Platform services used by the library remain subject to the Google
-Maps Platform Terms of Service).
-
-This repository adheres to [semantic versioning](https://semver.org/) to
-indicate when backwards-incompatible changes are introduced. Accordingly, while
-the library is in version 0.x, backwards-incompatible changes may be introduced
-at any time.
-
--   For issues with the Maps SDK for iOS,
-    [file an issue](https://developers.google.com/maps/documentation/ios-sdk/support#issue-tracker)
-    on the Maps SDK for iOS issue tracker or
-    [open a support case](https://developers.google.com/maps/documentation/ios-sdk/support#contact-maps-support).
--   If you find a bug with the Swift package, please
-    [file an issue](https://github.com/googlemaps/ios-maps-sdk/issues) on
-    GitHub.
+For issues with the Maps SDK for iOS, the primary support channel is to
+[open a support case](https://developers.google.com/maps/documentation/ios-sdk/support#contact-maps-support)
+with the Google Maps Platform support team. Alternatively, you can
+[file an issue](https://developers.google.com/maps/documentation/ios-sdk/support#issue-tracker)
+on the Maps SDK for iOS issue tracker.
 
 If you would like to get answers to technical questions from other Google Maps
 Platform developers, ask through one of our
 [developer community channels](https://developers.google.com/maps/developer-community).
 You can also discuss on the Google Maps Platform
 [Discord server](https://discord.gg/hYsWbmk).
+
+This repository is offered via an open source license. It is not governed by the
+Google Maps Platform Support
+[Technical Support Services Guidelines](https://cloud.google.com/maps-platform/terms/tssg),
+the [SLA](https://cloud.google.com/maps-platform/terms/sla), or the
+[Deprecation Policy](https://developers.google.com/maps/deprecations) (however,
+any Google Maps Platform services used by the library remain subject to the
+Google Maps Platform Terms of Service).
+
+## Versioning
+
+This repository adheres to [semantic versioning](https://semver.org/) to
+indicate when backwards-incompatible changes are introduced. Accordingly, while
+the library is in version 0.x, backwards-incompatible changes may be introduced
+at any time.
