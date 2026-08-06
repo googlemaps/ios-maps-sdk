@@ -22,8 +22,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "GoogleMaps",
-      url: "https://dl.google.com/geosdk/swiftpm/10.15.0/GoogleMaps_3p.xcframework.zip",
-      checksum: "b38e4974a7c56482ac9b2d3f99978e6979e5b781e0f55bbac2e306bf94fa0170"
+      url: "https://dl.google.com/geosdk/swiftpm/11.0.0/GoogleMaps_3p.xcframework.zip",
+      checksum: "374c56be45630f8f36f197728ab1fe24f322137af653f7dcb89c5d0d046dd16d"
     ),
     .target(
       name: "GoogleMapsTarget",
