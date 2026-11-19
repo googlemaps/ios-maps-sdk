@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 //
 // Copyright 2024 Google LLC
 //
@@ -17,13 +17,13 @@
 import PackageDescription
 
 let package = Package(
-  name: "GoogleMaps", platforms: [.iOS(.v16)],
+  name: "GoogleMaps", platforms: [.iOS(.v17)],
   products: [.library(name: "GoogleMaps", targets: ["GoogleMapsTarget"])], dependencies: [],
   targets: [
     .binaryTarget(
       name: "GoogleMaps",
-      url: "https://dl.google.com/geosdk/swiftpm/11.1.1/GoogleMaps_3p.xcframework.zip",
-      checksum: "6c9241a412b28a2a6112283c7ff099551383bd54dad4513ae065c65c3211947d"
+      url: "https://dl.google.com/geosdk/swiftpm/11.4.0/GoogleMaps_3p.xcframework.zip",
+      checksum: "9faa3c5722517ed6cc319836f8fc2e07ad34dd83f343019526cf94d7c8197b2e"
     ),
     .target(
       name: "GoogleMapsTarget",
@@ -36,6 +36,7 @@ let package = Package(
         .linkedLibrary("c++"),
         .linkedLibrary("z"),
         .linkedFramework("Accelerate"),
+        .linkedFramework("AVFoundation"),
         .linkedFramework("Contacts"),
         .linkedFramework("CoreData"),
         .linkedFramework("CoreGraphics"),

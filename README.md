@@ -4,14 +4,14 @@
 
 This repository contains the Swift package for the
 [Maps SDK for iOS](https://developers.google.com/maps/documentation/ios-sdk).
-For additional methods of installing the Maps SDK for iOS including CocoaPods,
+For additional methods of installing the Maps SDK for iOS,
 see the Maps SDK for iOS
 [documentation](https://developers.google.com/maps/documentation/ios-sdk/config).
 
 ## Requirements
 
 -   [Xcode](https://developer.apple.com/xcode/) version 16.0 or later
--   An app targeting iOS 16 or later
+-   An app targeting iOS 17 or later
 -   A Google Maps Platform
     [project](https://developers.google.com/maps/documentation/ios-sdk/cloud-setup)
     with the Maps SDK for iOS enabled.
